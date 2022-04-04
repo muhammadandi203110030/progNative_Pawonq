@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.resep"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.resep.Loading"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.resep.CustomListAdapter"
+            android:label="@string/title_activity_custom_list_adapter" >
+        </activity>
+        <activity
+            android:name="com.example.resep.Soto"
+            android:label="@string/title_activity_soto"
+            android:parentActivityName=".MainActivity" >
+>
+
+
+
+        </activity>
+        <activity
+            android:name="com.example.resep.MainActivity"
+            android:label="@string/title_activity_loading" >
+        </activity>
+        <activity
+            android:name="com.example.resep.Bakso"
+            android:label="@string/title_activity_bakso"
+            android:parentActivityName=".MainActivity" >
+>
+
+
+
+        </activity>
+        <activity
+            android:name="com.example.resep.Gforengan"
+            android:label="@string/title_activity_gforengan"
+            android:parentActivityName=".MainActivity" >
+>
+
+
+
+        </activity>
+        <activity
+            android:name="com.example.resep.Telurbakar"
+            android:label="@string/title_activity_telurbakar" >
+        </activity>
+        <activity
+            android:name="com.example.resep.About"
+            android:label="@string/title_activity_about" >
+        </activity>
+    </application>
+
+</manifest>
